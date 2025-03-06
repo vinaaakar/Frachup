@@ -1,0 +1,42 @@
+.top-portion ul li{
+    position: fix;
+    display: inline-block;
+}
+.logo{
+    padding-right: 64%;
+}
+.same{
+    padding-right: 50px;
+}
+.login{
+    width: 70px;
+    height: 40px;
+    box-shadow: 0px 0px 10px 1px black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.login:hover{
+    width: 75px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 10px 5px black;
+}
+.signin{
+    width: 70px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.signin:hover{
+    width: 75px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 5px black;
+}
